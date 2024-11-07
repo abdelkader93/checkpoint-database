@@ -1,0 +1,44 @@
+A quick comparison of functionalities, data models, and use cases
+-----------------------------------------------------------------
+
+
+Introduction to SQL Databases
+-----------------------------
+Definition: SQL (Structured Query Language) databases are relational databases, which organize data into tables with rows and columns.
+Data Model: Structured, schema-based with predefined schemas; data is organized in tables, rows, and columns.
+Examples: MySQL, PostgreSQL, Oracle.
+Best Use Cases: Applications requiring complex querying, structured data, and high transactional integrity (e.g., banking systems, inventory management).
+
+
+Introduction to MongoDB (NoSQL)
+-------------------------------
+Definition: MongoDB is a NoSQL, document-oriented database that stores data in flexible, JSON-like documents.
+Data Model: Schema-less or schema-flexible; data is stored in collections of documents rather than tables, allowing nested structures.
+Example: MongoDB.
+Best Use Cases: Applications requiring high scalability, unstructured or semi-structured data, and flexibility (e.g., content management systems, real-time analytics).
+
+
+Key Differences Between SQL Databases and MongoDB
+--------------------------------------------------
+
+Aspect	                   SQL Databases	         MongoDB
+++++++                     +++++++++++++                 ++++++++
+
+Data Structure	     Structured, table-based	  Document-based, flexible 
+Schema	              Fixed, defined upfront	    Flexible, schema-less
+Scalability	     Vertical (adding resources)   Horizontal (adding nodes)
+Transaction Support	Strong ACID compliance	   Limited ACID support, BASE model
+Query Language	   SQL (Structured Query Language)	MongoDB Query Language
+
+
+
+
+
+Pros and Cons
+--------------
+SQL Databases (e.g., MySQL, PostgreSQL)
+Pros: Ideal for structured data, robust ACID compliance, powerful querying capabilities.
+Cons: Less flexible schema, more complex to scale horizontally.
+MongoDB
+Pros: Highly flexible schema, easy to scale horizontally, supports dynamic and hierarchical data.
+Cons: Limited ACID compliance, complex queries are harder to optimize.
